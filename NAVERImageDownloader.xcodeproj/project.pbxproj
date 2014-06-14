@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55ECC63C191B328000D9EC8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ECC63B191B328000D9EC8E /* Cocoa.framework */; };
+		55ECC646191B328000D9EC8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55ECC644191B328000D9EC8E /* InfoPlist.strings */; };
+		55ECC648191B328000D9EC8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ECC647191B328000D9EC8E /* main.m */; };
+		55ECC64C191B328000D9EC8E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 55ECC64A191B328000D9EC8E /* Credits.rtf */; };
+		55ECC64F191B328000D9EC8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ECC64E191B328000D9EC8E /* AppDelegate.m */; };
+		55ECC652191B328000D9EC8E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55ECC650191B328000D9EC8E /* MainMenu.xib */; };
+		55ECC654191B328000D9EC8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55ECC653191B328000D9EC8E /* Images.xcassets */; };
+		55ECC671191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ECC670191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.m */; };
+		55FA1512192459D30008E269 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA1511192459D30008E269 /* libxml2.dylib */; };
+		55FA1514192477300008E269 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FA1513192477300008E269 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55ECC638191B328000D9EC8E /* NAVERImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAVERImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55ECC63B191B328000D9EC8E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		55ECC63E191B328000D9EC8E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		55ECC63F191B328000D9EC8E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		55ECC640191B328000D9EC8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55ECC643191B328000D9EC8E /* NAVERImageDownloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAVERImageDownloader-Info.plist"; sourceTree = "<group>"; };
+		55ECC645191B328000D9EC8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55ECC647191B328000D9EC8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55ECC649191B328000D9EC8E /* NAVERImageDownloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NAVERImageDownloader-Prefix.pch"; sourceTree = "<group>"; };
+		55ECC64B191B328000D9EC8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		55ECC64D191B328000D9EC8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55ECC64E191B328000D9EC8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55ECC651191B328000D9EC8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		55ECC653191B328000D9EC8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55ECC65A191B328000D9EC8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		55ECC66F191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAVERImageDownloaderWindowController.h; sourceTree = "<group>"; };
+		55ECC670191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAVERImageDownloaderWindowController.m; sourceTree = "<group>"; };
+		55FA1511192459D30008E269 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		55FA1513192477300008E269 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55ECC635191B328000D9EC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FA1514192477300008E269 /* WebKit.framework in Frameworks */,
+				55FA1512192459D30008E269 /* libxml2.dylib in Frameworks */,
+				55ECC63C191B328000D9EC8E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55ECC62F191B328000D9EC8E = {
+			isa = PBXGroup;
+			children = (
+				55ECC641191B328000D9EC8E /* NAVERImageDownloader */,
+				55ECC63A191B328000D9EC8E /* Frameworks */,
+				55ECC639191B328000D9EC8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55ECC639191B328000D9EC8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55ECC638191B328000D9EC8E /* NAVERImageDownloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55ECC63A191B328000D9EC8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55FA1513192477300008E269 /* WebKit.framework */,
+				55FA1511192459D30008E269 /* libxml2.dylib */,
+				55ECC63B191B328000D9EC8E /* Cocoa.framework */,
+				55ECC65A191B328000D9EC8E /* XCTest.framework */,
+				55ECC63D191B328000D9EC8E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55ECC63D191B328000D9EC8E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55ECC63E191B328000D9EC8E /* AppKit.framework */,
+				55ECC63F191B328000D9EC8E /* CoreData.framework */,
+				55ECC640191B328000D9EC8E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		55ECC641191B328000D9EC8E /* NAVERImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				55ECC64D191B328000D9EC8E /* AppDelegate.h */,
+				55ECC64E191B328000D9EC8E /* AppDelegate.m */,
+				55ECC66F191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.h */,
+				55ECC670191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.m */,
+				55ECC650191B328000D9EC8E /* MainMenu.xib */,
+				55ECC653191B328000D9EC8E /* Images.xcassets */,
+				55ECC642191B328000D9EC8E /* Supporting Files */,
+			);
+			path = NAVERImageDownloader;
+			sourceTree = "<group>";
+		};
+		55ECC642191B328000D9EC8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55ECC643191B328000D9EC8E /* NAVERImageDownloader-Info.plist */,
+				55ECC644191B328000D9EC8E /* InfoPlist.strings */,
+				55ECC647191B328000D9EC8E /* main.m */,
+				55ECC649191B328000D9EC8E /* NAVERImageDownloader-Prefix.pch */,
+				55ECC64A191B328000D9EC8E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55ECC637191B328000D9EC8E /* NAVERImageDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55ECC669191B328000D9EC8E /* Build configuration list for PBXNativeTarget "NAVERImageDownloader" */;
+			buildPhases = (
+				55ECC634191B328000D9EC8E /* Sources */,
+				55ECC635191B328000D9EC8E /* Frameworks */,
+				55ECC636191B328000D9EC8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAVERImageDownloader;
+			productName = NAVERImageDownloader;
+			productReference = 55ECC638191B328000D9EC8E /* NAVERImageDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55ECC630191B328000D9EC8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KoheiKanagu;
+			};
+			buildConfigurationList = 55ECC633191B328000D9EC8E /* Build configuration list for PBXProject "NAVERImageDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55ECC62F191B328000D9EC8E;
+			productRefGroup = 55ECC639191B328000D9EC8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55ECC637191B328000D9EC8E /* NAVERImageDownloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55ECC636191B328000D9EC8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECC646191B328000D9EC8E /* InfoPlist.strings in Resources */,
+				55ECC654191B328000D9EC8E /* Images.xcassets in Resources */,
+				55ECC64C191B328000D9EC8E /* Credits.rtf in Resources */,
+				55ECC652191B328000D9EC8E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55ECC634191B328000D9EC8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55ECC64F191B328000D9EC8E /* AppDelegate.m in Sources */,
+				55ECC648191B328000D9EC8E /* main.m in Sources */,
+				55ECC671191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55ECC644191B328000D9EC8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55ECC645191B328000D9EC8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55ECC64A191B328000D9EC8E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55ECC64B191B328000D9EC8E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		55ECC650191B328000D9EC8E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55ECC651191B328000D9EC8E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55ECC667191B328000D9EC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55ECC668191B328000D9EC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55ECC66A191B328000D9EC8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAVERImageDownloader/NAVERImageDownloader-Prefix.pch";
+				INFOPLIST_FILE = "NAVERImageDownloader/NAVERImageDownloader-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = NAVERImageDownloader;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55ECC66B191B328000D9EC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAVERImageDownloader/NAVERImageDownloader-Prefix.pch";
+				INFOPLIST_FILE = "NAVERImageDownloader/NAVERImageDownloader-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = NAVERImageDownloader;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55ECC633191B328000D9EC8E /* Build configuration list for PBXProject "NAVERImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECC667191B328000D9EC8E /* Debug */,
+				55ECC668191B328000D9EC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55ECC669191B328000D9EC8E /* Build configuration list for PBXNativeTarget "NAVERImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55ECC66A191B328000D9EC8E /* Debug */,
+				55ECC66B191B328000D9EC8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55ECC630191B328000D9EC8E /* Project object */;
+}

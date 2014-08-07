@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554B69BA199358FC00465382 /* KKNeverDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B69B9199358FC00465382 /* KKNeverDownloader.m */; };
 		55ECC63C191B328000D9EC8E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55ECC63B191B328000D9EC8E /* Cocoa.framework */; };
 		55ECC646191B328000D9EC8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55ECC644191B328000D9EC8E /* InfoPlist.strings */; };
 		55ECC648191B328000D9EC8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ECC647191B328000D9EC8E /* main.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		554B69B8199358FC00465382 /* KKNeverDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKNeverDownloader.h; sourceTree = "<group>"; };
+		554B69B9199358FC00465382 /* KKNeverDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKNeverDownloader.m; sourceTree = "<group>"; };
 		55ECC638191B328000D9EC8E /* NAVERImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAVERImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55ECC63B191B328000D9EC8E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		55ECC63E191B328000D9EC8E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -101,6 +104,8 @@
 				55ECC64E191B328000D9EC8E /* AppDelegate.m */,
 				55ECC66F191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.h */,
 				55ECC670191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.m */,
+				554B69B8199358FC00465382 /* KKNeverDownloader.h */,
+				554B69B9199358FC00465382 /* KKNeverDownloader.m */,
 				55ECC650191B328000D9EC8E /* MainMenu.xib */,
 				55ECC653191B328000D9EC8E /* Images.xcassets */,
 				55ECC642191B328000D9EC8E /* Supporting Files */,
@@ -189,6 +194,7 @@
 				55ECC64F191B328000D9EC8E /* AppDelegate.m in Sources */,
 				55ECC648191B328000D9EC8E /* main.m in Sources */,
 				55ECC671191B32AC00D9EC8E /* NAVERImageDownloaderWindowController.m in Sources */,
+				554B69BA199358FC00465382 /* KKNeverDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

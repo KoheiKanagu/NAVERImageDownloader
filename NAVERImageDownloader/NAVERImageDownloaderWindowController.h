@@ -1,14 +1,11 @@
-//
-//  NAVERImageDownloaderWindowController.h
-//  NAVERImageDownloader
-//
-//  Created by Kohei on 2014/05/08.
 //  Copyright (c) 2014年 KoheiKanagu. All rights reserved.
-//
 
 #import <Cocoa/Cocoa.h>
 #import <CommonCrypto/CommonDigest.h>
 #import <WebKit/WebKit.h>
+
+#import "KKNeverDownloader.h"
+
 
 typedef enum : NSUInteger {
     exportWithOriginalFileName,
@@ -36,6 +33,8 @@ typedef enum : NSUInteger {
     
     NSString *currectURL;
     NSMutableDictionary *downloadImagePageURLs;
+    
+    KKNeverDownloader *knd;
 }
 
 
